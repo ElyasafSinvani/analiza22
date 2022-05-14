@@ -107,10 +107,10 @@ def main():
     step = 0.1
     epsilon = 10 ** -6
     print('Please select the method you want to find the roots of the equation : \n')
-    choice = input('1 - Bisection_Method\n2 - Newton_Raphson\n3 - secant_method\n')
+    choice = input('1 - Bisection Method\n2 - Newton Raphson\n3 - secant method\n')
     while choice != '3' and choice != '2' and choice != '1':
         print('Error input please try again...\n')
-        choice = input('1 - Bisection_Method\n2 - Newton_Raphson\n3 - secant_method\n')
+        choice = input('1 - Bisection Method\n2 - Newton Raphson\n3 - secant method\n')
     if choice == '1':
         while end_point > start_point:
             if f(start_point) * f(start_point + step) < 0 or f_tag(start_point) * f_tag(start_point + step) < 0:
