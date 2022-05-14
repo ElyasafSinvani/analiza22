@@ -98,7 +98,7 @@ def secant_method(f, a, b, epsilon=10 ** -15):
 
 
 def main():
-    my_f = x**2-16*x+4
+    my_f = x**3-x-1
     f_tag = sp.diff(my_f, x)
     f_tag = lambdify(x, f_tag)
     f = lambdify(x, my_f)
