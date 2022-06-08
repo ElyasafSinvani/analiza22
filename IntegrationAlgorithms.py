@@ -54,7 +54,7 @@ def trapeziumrule():
 
 #print(f'Trapezoidal integral method {trapeziumrule()}\n')
 print(f'Simpson integral method:\n'
-      f'the func is : x*(e**(-(x**2)+(5*x)-3))*((x**2)+(3*x)-5)\n'
+      f'the func is :(x * (e ** (-x)) + ln(x ** 2, e)) * (2 * x ** 3 + 2 * x ** 2 - 3 * x - 5)\n'
       f'from starts in x = {lower}\n'
       f'to ends in x= {upper}\n'
       f'The size between each step (like 1/4,1/2,3/4) {h}\n'
